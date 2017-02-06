@@ -1,6 +1,6 @@
 {
-  "name": "metatavu-on-call-server",
-  "version": "0.0.1",
+  "name": "metadog",
+  "version": "0.1.1",
   "description": "",
   "main": "app.js",
   "scripts": {
@@ -8,13 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Metatavu/metatavu-on-call-server.git"
+    "url": "git+https://github.com/Metatavu/metadog.git"
   },
   "author": "Metatavu Oy",
   "license": "AGPL-3.0",
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
-    "fcm-push": "^1.1.2"
+    "fcm-push": "^1.1.2",
+    "socket.io": "^1.7.2"
   }
 }
